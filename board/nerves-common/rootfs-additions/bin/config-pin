@@ -879,7 +879,7 @@ load_cape () {
 			# Expand filename using shell globbing
 			for FILE in $SLOTS ; do
 				echo_std Loading $DTBO overlay
-				sudo -A bash -c "echo $DTBO > $SLOTS" || (echo_err "Error loading device tree overlay file: $DTBO" && exit 1)
+				ash -c "echo $DTBO > $SLOTS" || (echo_err "Error loading device tree overlay file: $DTBO" && exit 1)
 				sleep 1
 			done
 		fi
