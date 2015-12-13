@@ -1,5 +1,5 @@
 #!/bin/sh
-
+set -v
 TARGETDIR=$1
 HOSTDIR=$TARGETDIR/../host
 IMAGEDIR=$TARGETDIR/../images

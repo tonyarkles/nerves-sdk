@@ -1,6 +1,6 @@
 #!/bin/bash
-
 set -e
+set -v
 
 #
 # Post create filesystem hook

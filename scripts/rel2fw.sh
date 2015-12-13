@@ -1,6 +1,7 @@
 #!/bin/sh
 
 set -e
+set -v
 
 BASE_DIR=`pwd`
 PROJECT_DIR=`basename $BASE_DIR`
