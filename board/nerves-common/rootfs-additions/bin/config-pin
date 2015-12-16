@@ -1,5 +1,8 @@
 #!/bin/ash
 
+set -e
+set -v
+
 # Some important directories for use later
 OCPDIR=/sys/devices/ocp.*
 GPIODIR=/sys/class/gpio
